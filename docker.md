@@ -9,3 +9,6 @@ sudo add-apt-repository \
    stable"
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
+
+# Fix Docker login
+sudo apt install gnupg2 pass
